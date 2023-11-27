@@ -47,7 +47,7 @@ const Home = ({ setSelectedPage }: Props) => {
             </p>
             <div className="flex basis-3/5 justify-center
               md:ml-40 md:mt-4 md:justify-items-end ">
-            <img className="rounded-full" alt="photo-of-layla-kawafi" src={profilePhoto} height="250px" width="250px"/>
+            <img className="rounded-full mb-10 drop-shadow-md" alt="photo-of-layla-kawafi" src={profilePhoto} height="250px" width="250px"/>
             </div>
             </div>
             </div>

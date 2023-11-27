@@ -62,10 +62,10 @@ const Projects = ({ setSelectedPage }: Props) => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <div className="md:w-3/5">
+          <div className="md:w-5/6">
             <HText>MY PROJECTS</HText>
             <p className="text-xl mt-2">
-              Please find the projects that I have completed displayed below. If you would like to discover more about the project please click the GitHub link to see the project in more detail including how to run it locally yourself.
+              Please find the projects that I have completed displayed below. If you would like to discover more about the project please click the GitHub link to see the project in more detail including how to run it locally.
             </p>
           </div>
         </motion.div>

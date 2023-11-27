@@ -21,7 +21,7 @@ const CV = ({setSelectedPage}: Props) => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <div className="md:w-3/5 mt-20">
+          <div className="md:w-5/6 mt-20">
             <HText>CURRICULUM VITAE</HText>
             <p className="py-5 text-xl mt-0">
              Details of my work experience and education can be found below.
