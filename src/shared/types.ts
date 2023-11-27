@@ -5,10 +5,10 @@ export enum SelectedPage {
     Contact = "contact",
   }
   
-
-  
   export interface ClassType {
     name: string;
     description?: string;
     image: string;
+    github?: any;
+    link?: any;
   }
