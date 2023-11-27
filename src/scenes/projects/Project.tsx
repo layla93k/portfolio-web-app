@@ -1,6 +1,5 @@
 import githubIcon from "@/assets/githubicon.png"
 import linkIcon from "@/assets/linkicon2.jpg"
-import { ArrowRightCircleIcon } from "@heroicons/react/20/solid";
 ;
 
 type Props = {
