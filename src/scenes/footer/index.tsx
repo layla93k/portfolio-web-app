@@ -9,6 +9,7 @@ import PSQLLogo from "@/assets/PSQLicon.png"
 import reactLogo from "@/assets/reactlogo.png"
 import tailwindLogo from "@/assets/tailwindlogo.png"
 import TSLogo from "@/assets/Typescript_logo_2020.svg.png"
+import { ArrowRightCircleIcon } from "@heroicons/react/20/solid";
 
 const Footer = () => {
     const isAboveMediumScreens = useMediaQuery("(min-width:1060px)");
@@ -19,9 +20,12 @@ const Footer = () => {
             <p>
                 Thank you for taking the time to look over my portfolio website. Should you have any questions or would like to discuss any of my projects further, please don't hesitate to contact me using the links or email above.
             </p>
-            <p className="ml-100 mt-4">(C) Layla Kawafi</p>
+           {isAboveMediumScreens && <p className="ml-100 mt-4">(C) Layla Kawafi</p> }
             </div>
             {!isAboveMediumScreens && (
+              <div>
+                 <ArrowRightCircleIcon className="w-4 h-4 justify-end mt-8" />
+            Scroll across
                  <div className="h-[150px] w-full bg-primary-100 py-5 mb-20 overflow-x-auto">
                  <div className="mx-auto ml-4">
                    <div className="flex w-3/5 items-center justify-between gap-8">
@@ -38,6 +42,13 @@ const Footer = () => {
                    </div>
                  </div>
                </div>
+               <p>
+           
+            </p>
+                 <p className="ml-100">(C) Layla Kawafi 2023</p>
+                </div>
+              
+               
             )
             
         }

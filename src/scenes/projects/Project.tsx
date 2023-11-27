@@ -1,5 +1,7 @@
 import githubIcon from "@/assets/githubicon.png"
 import linkIcon from "@/assets/linkicon2.jpg"
+import { ArrowRightCircleIcon } from "@heroicons/react/20/solid";
+;
 
 type Props = {
     name: string;
@@ -17,8 +19,9 @@ type Props = {
   
     return (
       <>
-       
+      
       <li className="relative mx-5 inline-block h-[380px] w-[450px]">
+     
         <div className={overlayStyles}>
           <p className="text-3xl font-bold">{name}</p>
           <p className="mt-5 text-sm">{description}</p>
@@ -26,9 +29,10 @@ type Props = {
           {link.length > 0 ? <a href={link}><img className="h-10 mt-4 items-center" alt="github-link-img" src={linkIcon}/></a> : null }
         </div>
         <img className="h-[260px] w-auto" alt={`${image}`} src={image} />
-       
+        
       </li>
-         
+     
+      
       </>
       
     );
