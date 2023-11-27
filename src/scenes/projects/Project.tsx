@@ -5,8 +5,8 @@ type Props = {
     name: string;
     description?: string;
     image: string;
-    github?: string;
-    link?: string;
+    github: string;
+    link: string;
   };
   
   const Project = ({ name, description, image, github, link}: Props) => {

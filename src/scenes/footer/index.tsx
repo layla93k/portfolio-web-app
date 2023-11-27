@@ -10,10 +10,7 @@ import reactLogo from "@/assets/reactlogo.png"
 import tailwindLogo from "@/assets/tailwindlogo.png"
 import TSLogo from "@/assets/Typescript_logo_2020.svg.png"
 
-
-type Props = {}
-
-const Footer = (props: Props) => {
+const Footer = () => {
     const isAboveMediumScreens = useMediaQuery("(min-width:1060px)");
   return (
     <footer className="bg-primary-100 py-2">
