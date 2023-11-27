@@ -1,9 +1,9 @@
 import Navbar from "@/scenes/navbar";
 import Home from "@/scenes/home"
 import Projects from "@/scenes/projects";
-// import CV from "@/scenes/cv";
-// import Contact from "@/scenes/contact";
-// import Footer from "@/scenes/footer";
+import CV from "@/scenes/cv";
+import Contact from "@/scenes/contact";
+import Footer from "@/scenes/footer";
 import { useState, useEffect } from "react";
 import { SelectedPage } from "@/shared/types";
 
@@ -31,9 +31,9 @@ function App() {
       />
       <Home setSelectedPage={setSelectedPage} />
        <Projects setSelectedPage={setSelectedPage} />
-      {/* <CV setSelectedPage={setSelectedPage} />
-      <Contact setSelectedPage={setSelectedPage} />
-      <Footer /> */}
+      <CV setSelectedPage={setSelectedPage} />
+       <Contact setSelectedPage={setSelectedPage} />
+      <Footer />  
     </div>
   );
 }
