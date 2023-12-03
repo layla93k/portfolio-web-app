@@ -3,25 +3,27 @@ import { motion } from "framer-motion";
 import HText from "@/shared/HText"
 import Project from "./Project"
 import ElderHelperPhoto from "@/assets/elderHelper.png"
+import ElderHelperFE from "@/assets/Elderhelperscreenshot.png"
 import NCBEPhoto from "@/assets/NcNewsBe.png"
 import NCFEPhoto from "@/assets/NcNewsFe.png"
 import CFGBudgetApp from "@/assets/budgetApp.png"
 import { ArrowRightCircleIcon } from "@heroicons/react/20/solid";
 import RPSceeSharp from "@/assets/Screenshot from 2023-12-02 17-00-53.png"
+import authAPIPhoto from "@/assets/authAPIphoto.png"
 
 const projects: Array<ClassType> = [
   {
     name: "Elder Helper Mobile App",
     description:
-      "Elder Helper is an app with 2 user interfaces that connects the community. I worked within a team of 6 using agile methodologies to create this mobile app. We used React Native for the front-end and Express.js to build the back-end API alongside PostreSQL for the relational database. When building the API, we rigorously tested using Jest and Supertest to ensure the reliability of the code whilst also handling any errors that could occur. We used a Google Maps API integrated with React Native Maps to display the map view. There is a link which shows the app in action below.",
-    image: ElderHelperPhoto,
+      "Elder Helper is an app with 2 user interfaces that connects the community. I worked within a team of 6 using agile methodologies to create this mobile app. We used React Native for the front-end and Express.js to build the back-end API alongside PostreSQL for the relational database. We used a Google Maps API integrated with React Native Maps to display the map view. There is a link which shows the app in action below.",
+    image: ElderHelperFE,
     github: "https://github.com/layla93k/ElderHelper-frontend",
     link: "https://northcoders.com/project-phase/elder-helper",
   },
   {
     name: "Elder Helper back-end",
     description:
-      "This is the back-end API that was built for the React Native front-end app to interact with.",
+      "This is the back-end API that was built for the React Native front-end app to interact with. When building the API, we rigorously tested using Jest and Supertest to ensure the reliability of the code whilst also handling any errors that could occur.",
     image: ElderHelperPhoto,
     github: "https://github.com/layla93k/ElderHelper-backend",
     link: "https://northcoders.com/project-phase/elder-helper",
@@ -40,6 +42,14 @@ const projects: Array<ClassType> = [
     image: NCFEPhoto,
     github: "https://github.com/layla93k/fe-nc-news",
     link: "https://lk-news.netlify.app/"
+  },
+  {
+    name: "Authentication API",
+    description:
+      "This API was built using TypeScript, Express, Node and MongoDB for the non-relational database. It is a simple API that allows a user to register, login and fetch all users. You can delete or edit your own profile if you are logged in. I used Insomnia to check that the endpoints were working.",
+    image: authAPIPhoto,
+    github: "https://github.com/layla93k/authentication-API/tree/main",
+    link: ""
   },
   {
     name: "Rock Paper Scissors Mini Game",
