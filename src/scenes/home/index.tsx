@@ -43,7 +43,7 @@ const Home = ({ setSelectedPage }: Props) => {
             <h2 className="text-5xl mt-6">Full Stack Software Engineer</h2>
             <div className=" flex items-stretch flex-wrap">
             <p className="mt-8 text-lg">
-              I am an ambitious junior software engineer that is dedicated to creating smooth user experiences that meet specific needs and requirements. I have developed a strong foundation in both front-end and back-end technologies during my time on the Northcoders bootcamp and look forward to building on these foundations in my career. This web application was built using Typescript, React, and Tailwind for the styling.
+              I am an ambitious junior software engineer that is dedicated to creating smooth user experiences that meet specific needs and requirements. I have developed a strong foundation in both front-end and back-end technologies during my time on the Northcoders bootcamp and look forward to building on these foundations in my career. This web application was built using Typescript, React, and Tailwind for the styling. I am extremely excited to use my newly found knowledge and skills to enable me to learn and explore new languages.
             </p>
             <div className="flex basis-3/5 justify-center
               md:ml-40 md:mt-4 md:justify-items-end ">
