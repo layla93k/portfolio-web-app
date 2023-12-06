@@ -10,6 +10,7 @@ import CFGBudgetApp from "@/assets/budgetApp.png"
 import { ArrowRightCircleIcon } from "@heroicons/react/20/solid";
 import RPSceeSharp from "@/assets/Screenshot from 2023-12-02 17-00-53.png"
 import authAPIPhoto from "@/assets/authAPIphoto.png"
+import monopolyGamePic from "@/assets/monopolygame.png"
 
 const projects: Array<ClassType> = [
   {
@@ -62,10 +63,18 @@ const projects: Array<ClassType> = [
   {
     name: "Budget App",
     description:
-      "This was the first project I created whilst working in a team during a Code First Girls, 'Intro to JavaScript' course. I worked as part of a team to produce a small web app that allows a user to input data which triggers a change on the page. For this project we used HTML, CSS and JavaScript.",
+      "This was the first JavaScript project I created whilst working in a team during a Code First Girls, 'Intro to JavaScript' course. I worked as part of a team to produce a small web app that allows a user to input data which triggers a change on the page. For this project we used HTML, CSS and JavaScript.",
     image: CFGBudgetApp,
     github: "",
     link:"https://codepen.io/layla93k/pen/KKrBGxp",
+  },
+  {
+    name: "Monopoly Game",
+    description:
+      "This was my first ever coding project!! I created it whilst doing a session learning Python. It is a very simple Monopoly game where I learnt how to assign variables, convert data types and concatenate strings and variables.",
+    image: monopolyGamePic,
+    github: "",
+    link:"https://colab.research.google.com/drive/1n3vwt8xXJqdhhT0lo3pwhBpThriFdwML?usp=sharing",
   },
   ];
 
